@@ -14,12 +14,17 @@
 		240D3B5123D436FD009B0D11 /* banner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 240D3B4F23D436FD009B0D11 /* banner.xcdatamodeld */; };
 		240D3B5323D436FD009B0D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240D3B5223D436FD009B0D11 /* Assets.xcassets */; };
 		240D3B5623D436FD009B0D11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240D3B5423D436FD009B0D11 /* LaunchScreen.storyboard */; };
-		240D3B5E23D43950009B0D11 /* BannerFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240D3B5D23D43950009B0D11 /* BannerFrame.swift */; };
 		240D3B6223D445AC009B0D11 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240D3B6123D445AC009B0D11 /* Banner.swift */; };
-		240D3B6423D44825009B0D11 /* BannerInsideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240D3B6323D44825009B0D11 /* BannerInsideView.swift */; };
+		240D3B6423D44825009B0D11 /* BannerFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240D3B6323D44825009B0D11 /* BannerFrame.swift */; };
+		241384D223E58BD70071A842 /* jalnan-ttf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 241384D023E58BD60071A842 /* jalnan-ttf.ttf */; };
+		241384D323E58BD70071A842 /* jalnan-otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = 241384D123E58BD70071A842 /* jalnan-otf.otf */; };
+		244B1E9F23E5B4EF00F564BA /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244B1E9E23E5B4EF00F564BA /* BannerModel.swift */; };
 		24AE769623DF1B8A0089FB0C /* required_reading_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AE769523DF1B8A0089FB0C /* required_reading_7.png */; };
 		24AE769923DF21EB0089FB0C /* required_reading_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AE769723DF21EB0089FB0C /* required_reading_5.png */; };
 		24AE769A23DF21EB0089FB0C /* required_reading_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 24AE769823DF21EB0089FB0C /* required_reading_6.png */; };
+		24BE5D0F23E40AD3003DCAF4 /* BannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24BE5D0E23E40AD3003DCAF4 /* BannerCell.xib */; };
+		24BE5D1123E40CC4003DCAF4 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BE5D1023E40CC4003DCAF4 /* BannerCell.swift */; };
+		24BE5D1423E4151E003DCAF4 /* BNRConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BE5D1323E4151E003DCAF4 /* BNRConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +37,17 @@
 		240D3B5223D436FD009B0D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		240D3B5523D436FD009B0D11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		240D3B5723D436FD009B0D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		240D3B5D23D43950009B0D11 /* BannerFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerFrame.swift; sourceTree = "<group>"; };
 		240D3B6123D445AC009B0D11 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
-		240D3B6323D44825009B0D11 /* BannerInsideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerInsideView.swift; sourceTree = "<group>"; };
+		240D3B6323D44825009B0D11 /* BannerFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerFrame.swift; sourceTree = "<group>"; };
+		241384D023E58BD60071A842 /* jalnan-ttf.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jalnan-ttf.ttf"; sourceTree = "<group>"; };
+		241384D123E58BD70071A842 /* jalnan-otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jalnan-otf.otf"; sourceTree = "<group>"; };
+		244B1E9E23E5B4EF00F564BA /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
 		24AE769523DF1B8A0089FB0C /* required_reading_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = required_reading_7.png; sourceTree = "<group>"; };
 		24AE769723DF21EB0089FB0C /* required_reading_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = required_reading_5.png; sourceTree = "<group>"; };
 		24AE769823DF21EB0089FB0C /* required_reading_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = required_reading_6.png; sourceTree = "<group>"; };
+		24BE5D0E23E40AD3003DCAF4 /* BannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCell.xib; sourceTree = "<group>"; };
+		24BE5D1023E40CC4003DCAF4 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		24BE5D1323E4151E003DCAF4 /* BNRConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNRConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +88,17 @@
 				240D3B5423D436FD009B0D11 /* LaunchScreen.storyboard */,
 				240D3B5723D436FD009B0D11 /* Info.plist */,
 				240D3B4F23D436FD009B0D11 /* banner.xcdatamodeld */,
-				240D3B5D23D43950009B0D11 /* BannerFrame.swift */,
 				240D3B6123D445AC009B0D11 /* Banner.swift */,
-				240D3B6323D44825009B0D11 /* BannerInsideView.swift */,
+				244B1E9E23E5B4EF00F564BA /* BannerModel.swift */,
+				240D3B6323D44825009B0D11 /* BannerFrame.swift */,
+				24BE5D0E23E40AD3003DCAF4 /* BannerCell.xib */,
+				24BE5D1023E40CC4003DCAF4 /* BannerCell.swift */,
+				24BE5D1323E4151E003DCAF4 /* BNRConstant.swift */,
 				24AE769523DF1B8A0089FB0C /* required_reading_7.png */,
 				24AE769723DF21EB0089FB0C /* required_reading_5.png */,
 				24AE769823DF21EB0089FB0C /* required_reading_6.png */,
+				241384D123E58BD70071A842 /* jalnan-otf.otf */,
+				241384D023E58BD60071A842 /* jalnan-ttf.ttf */,
 			);
 			path = banner;
 			sourceTree = "<group>";
@@ -147,8 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				24AE769923DF21EB0089FB0C /* required_reading_5.png in Resources */,
+				241384D223E58BD70071A842 /* jalnan-ttf.ttf in Resources */,
 				240D3B5623D436FD009B0D11 /* LaunchScreen.storyboard in Resources */,
 				24AE769623DF1B8A0089FB0C /* required_reading_7.png in Resources */,
+				241384D323E58BD70071A842 /* jalnan-otf.otf in Resources */,
+				24BE5D0F23E40AD3003DCAF4 /* BannerCell.xib in Resources */,
 				240D3B5323D436FD009B0D11 /* Assets.xcassets in Resources */,
 				24AE769A23DF21EB0089FB0C /* required_reading_6.png in Resources */,
 				240D3B4E23D436FD009B0D11 /* Main.storyboard in Resources */,
@@ -162,12 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				240D3B5E23D43950009B0D11 /* BannerFrame.swift in Sources */,
+				24BE5D1123E40CC4003DCAF4 /* BannerCell.swift in Sources */,
 				240D3B4B23D436FD009B0D11 /* ViewController.swift in Sources */,
 				240D3B5123D436FD009B0D11 /* banner.xcdatamodeld in Sources */,
+				244B1E9F23E5B4EF00F564BA /* BannerModel.swift in Sources */,
 				240D3B4723D436FD009B0D11 /* AppDelegate.swift in Sources */,
 				240D3B4923D436FD009B0D11 /* SceneDelegate.swift in Sources */,
-				240D3B6423D44825009B0D11 /* BannerInsideView.swift in Sources */,
+				24BE5D1423E4151E003DCAF4 /* BNRConstant.swift in Sources */,
+				240D3B6423D44825009B0D11 /* BannerFrame.swift in Sources */,
 				240D3B6223D445AC009B0D11 /* Banner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
